@@ -56,7 +56,10 @@ p{
     font-size: 30px;
     font-weight: 300;
 }
-
+.subttext{
+    font-size: 15px;
+    font-weight: 300;
+}
 .hero-area{
 display: flex;
 height: 100%;
@@ -130,11 +133,19 @@ align-items: center;
     width: 300px;
     height: 500px;
     border: 1px solid black;
-    box-shadow: 5px 5px 20px rgb(175, 175, 175);
+    box-shadow: 5px 5px 20px rgb(102, 100, 100);
+    margin: 10px;
 
 }
 
 .project-container{
     display: flex;
     justify-content: space-around;
+}
+
+.project-image{
+    margin-top: 25px;
+    width: 300px;
+    border-radius: 150px;
+
 }
