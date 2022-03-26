@@ -10,23 +10,27 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@400;700&family=Poppins:ital,wght@0,300;0,900;1,100;1,400;1,600;1,700&family=Quicksand:wght@300;400;500;600;700&family=Roboto+Mono:ital,wght@0,100;0,400;1,300&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/74e31e9e12.js" crossorigin="anonymous"></script>
     <title>portfolio</title>
 </head>
 <body>
     <section class = "hero">
         <nav>
             <img class = "logo" src="src/images/logo.jpg" alt="logo"/> 
-            <ul>
-              <li> about me</li>  
-              <li>projects</li>
-              <li>Contact me</li>
+            <ul id="nav-list">
+              <li><a href="#about-me">about me</a></li>  
+              <li><a href="#Projects">projects</a></li>
+              <li><a href="#contact-me">Contact me</a></li>
             </ul>
+            <button class=" hamburger " id="hamburger">
+                <i class=" fas fa-bars"></i>
+            </button>
         </nav>
         <div class = hero-area>
         <div class = "hero-text">
            <h1>Terry Sayers</h1>
            <P>Junior full Stack Developer</P>
-           <div class = "button">About Me</div>
+           <div class="button"><a href="#about-me">about me</a></div>
         </div>
         <div class="socials">
            <div><a href="https://www.twitter.com" class ="social">
@@ -41,51 +45,53 @@
      </div>
     </div>
     </section> 
-    <section class = "sub-section">
+    <section class = "sub-section"id="about-me">
         <div class = "information">
             <h2>About me</h2>
             <p> hello. my name is Terry Sayers I am Junior software developer</p>
         </div>
         <div class = "headshot-container">
-            <img class="headshot" src="scr/images/headshot" alt="terry headshot"/>
+            <img class="headshot" src="src/images/download.png" alt="terry headshot"/>
         </div>
     </section>                                                            
-    <section class = "sub-section-alternative">
+    <section class = "sub-section-alternative"id="Projects">
      <h2>Projects</h2>
      <div class ="project-container" >
         <div class = "projects-card">
-        <img class="project-image" img src="" alt="project on image"/>
+        <img class="project-image" img src="src/images/maxresdefault.jpg" alt="project on image"/>
         <h3> project one</h3>
         <p class="subtext"> this is my project and some text about it i enjoyed making this project</p>
         <hr/>
-        <pclass="subtext> view here</p>
+        <p class="subtext"><a class ="project-link" href="https://www.github.com/Terrys101">view here</a></p>
     </div>
         <div class = "projects-card">
-            <img class="project-image" img src="" alt="project on image"/>
+            <img class="project-image" img src="src/images/maxresdefault.jpg" alt="project on image"/>
         <h3> project two</h3>
         <p class="subtext"> this is my project and some text about it i enjoyed making this project</p>
         <hr/>
-        <p class="subtext"> view here</p>
+        <p class="subtext"><a class ="project-link" href="https://www.github.com/Terrys101">view here</a></p>
         </div>
         
         <div class = "projects-card"> 
-            <img class="project-image" img src="" alt="project on image"/>
+            <img class="project-image" img src="src/images/maxresdefault.jpg" alt="project on image"/>
             <h3> project three</h3>
         <p class="subtext"> this is my project and some text about it i enjoyed making this project</p>
         <hr/>
-        <p class="subtext"> view here</p>
+        <p class="subtext"><a class ="project-link" href="https://www.github.com/Terrys101">view here</a></p>
         </div>
         <div class = "projects-card">
-            <img class="project-image" img src="" alt="project on image"/>
+            <img class="project-image" img src="src/images/maxresdefault.jpg" alt="project on image"/>
             <h3> project four</h3>
         <p class="subtext"> this is my project and some text about it i enjoyed making this project</p>
         <hr/>
-        <p class="subtext"> view here</p>
+        <p class="subtext"><a class ="project-link" href="https://www.github.com/Terrys101">view here</a></p>
         </div>
      </div>
     </section>
-    <footer></footer>
-
+    <footer id="contact-me">
+    <h2>contact me</h2>
+    <p>info@terrysayers.com</p>
+    </footer>
 
 
     ,<script src="src/app.js"></script>
