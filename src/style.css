@@ -58,7 +58,7 @@ h2{
 
 p{
     margin: 0;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 300;
 }
 .subttext{
@@ -147,7 +147,7 @@ align-items: center;
     display: flex;
     justify-content: space-around;
 }
-@media only screen and (max-width: 1450px) {
+@media only screen and (max-width: 1400px) {
     .project-container{
         display: flex;
         flex-wrap: wrap;
