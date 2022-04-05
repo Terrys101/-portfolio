@@ -41,6 +41,7 @@ nav{
 ul{
     display: flex;
     list-style-type: none;
+    padding-right: 20px;
     width: 500px;
     justify-content: space-around;
     font-size: 30px;
@@ -55,7 +56,7 @@ li{
 }
 
 h1{
-    font-size: 90px;
+    font-size: 100px;
     margin: 0;
 
 }
@@ -70,20 +71,20 @@ p{
     font-weight: 300;
 }
 
-/* svg {
-width: 50%;
-fl ;
-}     */
 
 
 /*  name  */
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1000px) {
     h1{
-        font-size: 70px;
-      
-        
+        font-size: 50px;}
+
+         .socials{
+        padding-bottom: 0px;    
     }
-    
+    .social{
+        margin: 0%;
+    }
+             
 } 
 .subttext{
     font-size: 15px;
@@ -106,12 +107,13 @@ align-items: center;
  width: 200px;
  height: 50px;
  border-radius: 30px;
-  background-color:chocolate ;
+  background-color:rgb(40, 141, 136) ;
   text-align: center;
   font-size: 30px;
   font-weight: 300;
-  padding-top: 5px ;
-  margin-top: 20px;
+  padding-left: -50px;
+  padding-top: 4px ;
+  margin-top: 15px;
 
 }
 
@@ -125,7 +127,11 @@ align-items: center;
 }
 
 .socials{
-    padding-bottom: 200px;
+   
+    padding-bottom: 250px;
+
+        
+  
 }
 
 .logo{
@@ -133,20 +139,13 @@ align-items: center;
     margin: 30px;
 }
 
-.social{
-    margin: 100px ;
-}
-
-@media only screen and (max-width: 500px) {
-    .social{
-        display: flex;
-        justify-content: center;
-       
-      
-        
-    }
-    
+ .social{
+    margin: 10px ;
+  
 } 
+
+
+ 
 
 .sub-section{
     display: flex;
@@ -155,13 +154,13 @@ align-items: center;
 }
 
 
-@media only screen and (max-width: 1000px) {
+   @media only screen and (max-width: 413px) {
     .sub-section{
         display: flex;
         flex-wrap: wrap;
     }
     
-} 
+}    
 .sub-section-alternative{
     display: flex;
     flex-direction: column;
@@ -169,14 +168,16 @@ align-items: center;
     padding: 80px;
 }
 .headshot{
+    
     width: 300px;
     border-radius: 150px;
 }
 
-.headshot-container{
+ .headshot-container{
     display: flex;
     align-items: center;
-}
+    padding-top: 200px;
+} 
 
 .projects-card{
     width: 300px;
