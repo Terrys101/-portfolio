@@ -25,6 +25,14 @@ footer{
     padding: 80px;
 }
 
+@media only screen and (max-width: 1000px) {
+    .email{
+        display: flex;
+        justify-content: center;
+    }
+    
+}  
+
 nav{
     display: flex;
     justify-content: space-between;
@@ -61,6 +69,22 @@ p{
     font-size: 25px;
     font-weight: 300;
 }
+
+/* svg {
+width: 50%;
+fl ;
+}     */
+
+
+/*  name  */
+@media only screen and (max-width: 900px) {
+    h1{
+        font-size: 70px;
+      
+        
+    }
+    
+} 
 .subttext{
     font-size: 15px;
     font-weight: 300;
@@ -110,14 +134,34 @@ align-items: center;
 }
 
 .social{
-    margin:20px ;
+    margin: 100px ;
 }
+
+@media only screen and (max-width: 500px) {
+    .social{
+        display: flex;
+        justify-content: center;
+       
+      
+        
+    }
+    
+} 
 
 .sub-section{
     display: flex;
     justify-content: space-around;
     padding: 80px;
 }
+
+
+@media only screen and (max-width: 1000px) {
+    .sub-section{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+} 
 .sub-section-alternative{
     display: flex;
     flex-direction: column;
@@ -147,13 +191,13 @@ align-items: center;
     display: flex;
     justify-content: space-around;
 }
-@media only screen and (max-width: 1400px) {
+ @media only screen and (max-width: 1000px) {
     .project-container{
         display: flex;
         flex-wrap: wrap;
     }
     
-}
+} 
 
 .project-image{
     margin-top: 25px;
